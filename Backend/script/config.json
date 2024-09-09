@@ -1,0 +1,60 @@
+{
+    "websites": {
+        "amazon": {
+            "base_url": "https://www.amazon.in/",
+            "Change_location": true,
+            "location-value":"pincode",
+            "scrolling":false,
+            "category-div-open":false,
+            "show-more":"div",
+            "scroll-to-load-page":false,
+            "category":"span"
+        },
+        "flipkart": {
+            "base_url": "https://www.flipkart.com",
+            "Change_location": false,
+            "scrolling":false,
+            "category-div-open":false,
+            "show-more":"div",
+            "scroll-to-load-page":false,
+            "category":"span"
+            
+        },
+        "blinkit": {
+            "base_url": "https://blinkit.com/s/",
+            "Change_location": true,
+            "location-value":"city",
+            "scrolling":true,
+            "scrolling_to_bottom":true,
+            "category-div-open":false,
+            "show-more":"div",
+            "scroll-to-load-page":false,
+            "category":"span"
+        },
+        "bigbasket": {
+            "base_url": "https://www.bigbasket.com/cl/beverages/?nc=nb",
+            "Change_location": false,
+            "scrolling":true,
+            "scrolling_to_bottom":false,
+            "scrolling_element":{
+                "class":"SKUDeckShimmers___StyledDiv-sc-tbwl0o-0"
+            },
+            "category-div-open":true,
+            "show-more":"button",
+            "scroll-to-load-page":true,
+            "category":{
+                "span":{
+                    "input":null
+                }
+            }
+        }
+
+    },
+    "prompt": "beverages",
+    "locations": {
+                "282001": "agra"
+            },
+    "filters": {
+        
+    }
+}
